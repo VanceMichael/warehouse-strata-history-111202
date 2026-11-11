@@ -1,0 +1,22 @@
+{
+  "suppliers": [
+    {
+      "supplier": "s1",
+      "region": "华东"
+    }
+  ],
+  "receipts": [
+    {
+      "receipt": "r1",
+      "supplier": "s1",
+      "day": "2026-10-10",
+      "amount": "12.30"
+    },
+    {
+      "receipt": "r2",
+      "supplier": "missing",
+      "day": "2026-10-11",
+      "amount": "2.00"
+    }
+  ]
+}
