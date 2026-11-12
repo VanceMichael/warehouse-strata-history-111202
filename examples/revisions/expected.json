@@ -1,0 +1,67 @@
+{
+  "version_order": ["v1", "v2", "v3", "v4", "v5"],
+  "snapshots": {
+    "v1": [
+      {"region": "华东", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"},
+      {"region": "未知", "amount": "2.00"}
+    ],
+    "v2": [
+      {"region": "华北", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"},
+      {"region": "未知", "amount": "2.00"}
+    ],
+    "v3": [
+      {"region": "华北", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"},
+      {"region": "未知", "amount": "2.00"}
+    ],
+    "v4": [
+      {"region": "华中", "amount": "2.00"},
+      {"region": "华北", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"}
+    ],
+    "v5": [
+      {"region": "华东", "amount": "12.30"},
+      {"region": "华中", "amount": "2.00"},
+      {"region": "华南", "amount": "5.00"}
+    ]
+  },
+  "known_at": {
+    "2026-11-01T00:00:00+00:00": [
+      {"region": "华东", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"},
+      {"region": "未知", "amount": "2.00"}
+    ],
+    "2026-11-06T00:00:00+00:00": [
+      {"region": "华北", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"},
+      {"region": "未知", "amount": "2.00"}
+    ],
+    "2026-11-09T08:00:00+00:00": [
+      {"region": "华北", "amount": "12.30"},
+      {"region": "华南", "amount": "5.00"},
+      {"region": "未知", "amount": "2.00"}
+    ],
+    "2026-11-12T00:00:00+00:00": [
+      {"region": "华东", "amount": "12.30"},
+      {"region": "华中", "amount": "2.00"},
+      {"region": "华南", "amount": "5.00"}
+    ]
+  },
+  "v3_s2_members": [
+    {"valid_from": "2026-10-01", "valid_to": "2026-10-15", "region": "华南", "source_version": "v1"},
+    {"valid_from": "2026-10-15", "valid_to": "2026-11-01", "region": "西南", "source_version": "v3"}
+  ],
+  "current_after_v5": [
+    {"region": "华东", "amount": "12.30"},
+    {"region": "华中", "amount": "2.00"},
+    {"region": "华南", "amount": "5.00"}
+  ],
+  "v6_after_recovery": [
+    {"region": "华东", "amount": "12.30"},
+    {"region": "华中", "amount": "2.00"},
+    {"region": "华南", "amount": "5.00"},
+    {"region": "西北", "amount": "7.70"}
+  ]
+}

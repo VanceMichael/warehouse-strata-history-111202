@@ -1,0 +1,14 @@
+{
+  "source_version": "v4",
+  "received_at": "2026-11-09T09:00:00+00:00",
+  "dimensions": [
+    {
+      "supplier": "missing",
+      "region": "华中",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-11-01"
+    }
+  ],
+  "receipts": [],
+  "retract_versions": []
+}

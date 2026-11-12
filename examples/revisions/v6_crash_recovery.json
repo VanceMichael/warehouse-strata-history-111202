@@ -1,0 +1,21 @@
+{
+  "source_version": "v6",
+  "received_at": "2026-11-11T09:00:00+00:00",
+  "dimensions": [
+    {
+      "supplier": "s3",
+      "region": "西北",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-11-01"
+    }
+  ],
+  "receipts": [
+    {
+      "receipt": "r4",
+      "supplier": "s3",
+      "day": "2026-10-20",
+      "amount": "7.70"
+    }
+  ],
+  "retract_versions": []
+}

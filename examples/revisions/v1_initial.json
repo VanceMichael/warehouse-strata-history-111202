@@ -1,0 +1,39 @@
+{
+  "source_version": "v1",
+  "received_at": "2026-10-31T09:00:00+00:00",
+  "dimensions": [
+    {
+      "supplier": "s1",
+      "region": "华东",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-11-01"
+    },
+    {
+      "supplier": "s2",
+      "region": "华南",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-11-01"
+    }
+  ],
+  "receipts": [
+    {
+      "receipt": "r1",
+      "supplier": "s1",
+      "day": "2026-10-10",
+      "amount": "12.30"
+    },
+    {
+      "receipt": "r2",
+      "supplier": "missing",
+      "day": "2026-10-11",
+      "amount": "2.00"
+    },
+    {
+      "receipt": "r3",
+      "supplier": "s2",
+      "day": "2026-10-12",
+      "amount": "5.00"
+    }
+  ],
+  "retract_versions": []
+}
